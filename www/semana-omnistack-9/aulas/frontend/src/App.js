@@ -11,9 +11,7 @@ function App() {
     event.preventDefault();
 
     const response = await api.post('/sessions', { email });
-
-    console.log(response);
-
+  
   }
 
 
