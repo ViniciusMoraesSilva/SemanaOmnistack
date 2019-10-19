@@ -9,7 +9,7 @@ server.use(express.json());
  * `let` porque vai sofrer mutação. A variável
  * `projects` pode ser `const` porque um `array`
  * pode receber adições ou exclusões mesmo sendo
- * uma constante..
+ * uma constante.
  */
 let numberOfRequests = 0;
 const projects = [];
