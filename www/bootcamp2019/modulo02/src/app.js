@@ -1,7 +1,7 @@
 import express from 'express';
-import routes  from './routes';
+import routes from './routes';
 
-class app {
+class App {
   constructor() {
     this.server = express();
 
@@ -18,4 +18,4 @@ class app {
   }
 }
 
-export default new app().server;
+export default new App().server;
